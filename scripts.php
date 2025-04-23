@@ -1,4 +1,5 @@
 <?php
+// Search and replace URL with another URL in the post_content for all post types
 add_action('init', function () {
 	$search = 'http:\/\/localhost\/clifton';
 	$replace = 'https:\/\/clifton.localjungle.website';
